@@ -17,7 +17,7 @@ repository               : "gslindenmeyer/gslindenmeyer.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Guilherme Lindenmeyer"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "MSc Econ Student"
   location         : "Mannheim, Germany"
   employer         :
-  pubmed           : ""
-  googlescholar    : "https://scholar.google.com.br/citations?user=9WOVf3AAAAAJ&hl=pt-BR"
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com.br/citations?user=9WOVf3AAAAAJ"
   email            : "gslindenmeyer@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        : "gslindenmeyer" 
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/guilherme-lindenmeyer/"
+  linkedin         : "guilherme-lindenmeyer"
   orcid            : "https://orcid.org/0000-0001-9578-5143"
   pinterest        :
   soundcloud       :
@@ -176,16 +176,16 @@ kramdown:
 # Collections
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
