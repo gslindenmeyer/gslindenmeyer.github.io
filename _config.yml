@@ -85,7 +85,7 @@ author:
   avatar           : "gui.jpg"
   bio              : #"Your biography for the left-hand sidebar"
   location         : "University of Mannheim"
-  cv               : "CV.pdf"
+  cv               : "https://gslindenmeyer.github.io/files/CV.pdf"
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com.br/citations?user=9WOVf3AAAAAJ"
