@@ -4,6 +4,7 @@ title: "Research"
 permalink: /research/
 author_profile: true
 ---
+## Published
 
 ### Using boosting for forecasting electric energy consumption during a recession: a case study for the Brazilian State Rio Grande do Sul
 
