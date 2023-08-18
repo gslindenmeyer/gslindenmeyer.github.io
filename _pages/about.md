@@ -21,7 +21,7 @@ During my bachelor's degree I did a research fellowship where, together with my 
 
 ### Contact Information
 
-I am always open to conversations and opportunities.. Feel free to reach out to me via email or connect with me on LinkedIn:
+I am always open to conversations and opportunities. Feel free to reach out to me via email or connect with me on LinkedIn:
 
 - **Email**: [gslindenmeyer@gmail.com](mailto:gslindenmeyer@gmail.com)
 - **LinkedIn**: [linkedin.com/in/guilherme-lindenmeyer](https://www.linkedin.com/in/guilherme-lindenmeyer/)
