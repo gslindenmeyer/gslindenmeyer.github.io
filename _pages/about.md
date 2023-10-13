@@ -10,14 +10,14 @@ redirect_from:
 
 ### Hi there, I'm Guilherme, but you can call me Gui!
 
-I am a Master of Economics student at the **University of Mannheim** and a Summer Intern at **ZEW**.
+I am a Master of Economics student at the **University of Mannheim** and currently a RA to Prof. Lei Li at the University of Mannheim.
 
 You can download my CV [here](https://gslindenmeyer.github.io/files/CV.pdf).
 
 
 ### Research and Projects
 
-During my bachelor's degree I did a research fellowship where, together with my friend Pedro Skorin and prof. Hudson Torrent, we published our **first paper** together. It can be accessed here: [here](https://link.springer.com/article/10.1007/s12076-021-00268-3).
+During my bachelor's degree I did a research fellowship where, together with my friend Pedro Skorin and Prof. Hudson Torrent, we published our **first paper** together. It can be accessed [here](https://link.springer.com/article/10.1007/s12076-021-00268-3). Then I continued the research together with Prof. Hudson Torrent and recently published my bachelor's term paper in a journal, which can be accessed [here](https://link.springer.com/article/10.1007/s10614-023-10421-3) and was published as Open Access.
 
 ### Contact Information
 
@@ -32,6 +32,7 @@ I am always open to conversations and opportunities. Feel free to reach out to m
 
 ### Experience
 
+- Research Assistant to Prof. Lei Li, University of Mannheim
 - Summer Intern, ZEW
 - Research Assistant, Federal University of Rio Grande do Sul (UFRGS)
 - Political Economy Teaching Assistant, Federal University of Rio Grande do Sul (UFRGS)
