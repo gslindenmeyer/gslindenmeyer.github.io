@@ -81,15 +81,15 @@ analytics:
 
 # Site Author "University of Mannheim,\nDepartment of Economics,\nL 7 3–5, 68161 - Mannheim, Germany"
 author:
-  name             : "Guilherme Schultz Lindenmeyer"
+  name             : "Guilherme Lindenmeyer"
   avatar           : "gui.jpg"
   bio              : #"Your biography for the left-hand sidebar"
-  location         : "University of Mannheim"
+  location         : "Madison, WI"
   cv               : "https://gslindenmeyer.github.io/files/CV.pdf"
   employer         : 
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com.br/citations?user=9WOVf3AAAAAJ"
-  email            : "gslindenmeyer@gmail.com"
+  email            : "schultzlinde@wisc.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              : #"https://github.com/tommaso-gasparini-econ/tommaso-gasparini-econ.github.io/raw/master/files/CV.pdf"
   bitbucket        :
