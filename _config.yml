@@ -70,14 +70,12 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
-
 # Analytics
 analytics:
   provider               :  "google-gtag"
   google:
     tracking_id          :  "G-V6TYF8R4DW"
-    anonymize_ip         : false # default	
-
+    anonymize_ip         : false # default  
 
 # Site Author "University of Mannheim,\nDepartment of Economics,\nL 7 3–5, 68161 - Mannheim, Germany"
 author:
@@ -153,14 +151,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -172,7 +168,6 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-
 
 # Collections
 collections:
@@ -189,7 +184,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
 # Defaults
 defaults:
   # _posts
@@ -203,14 +197,14 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
+  # `_pages`
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
+  # `_teaching`
   - scope:
       path: ""
       type: teaching
@@ -219,7 +213,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
+  # `_publications` (research)
   - scope:
       path: ""
       type: research
@@ -228,7 +222,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # `_portfolio`
   - scope:
       path: ""
       type: portfolio
@@ -237,7 +231,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # `_talks`
   - scope:
       path: ""
       type: talks
@@ -245,18 +239,20 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # ***OUR ADDED THEME SWITCH***
+  - scope:
+      path: ""
+    values:
+      theme_switch: true
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: America/Los_Angeles
 
 # Plugins
 plugins:
@@ -264,6 +260,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -271,39 +268,28 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
 # Archives
-#  Type
-#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
-#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
-#  Path (examples)
-#  - Archive page should exist at path when using Liquid method or you can
-#    expect broken links (especially with breadcrumbs enabled)
-#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
-#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
-#  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
   type: liquid
   path: /categories/
 tag_archive:
   type: liquid
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
-
 
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+
+# ————————— Navigation —————————
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Teaching"
+    url: "/teaching/"
+
+# ————————— Search —————————
+search: true

@@ -37,5 +37,10 @@
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
+
+// ————————— Dark mode setup —————————
+// Tells Minimal Mistakes to compile both light + dark styles
+$minimal-mistakes-theme-switch-enabled: true;
+
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
