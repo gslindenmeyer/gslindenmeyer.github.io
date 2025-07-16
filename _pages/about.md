@@ -8,9 +8,7 @@ redirect_from:
   - /about.html  
 ---
 
-### Hi there, I'm Guilherme, but you can call me Gui!
-
-I’m a first‑year PhD student in Economics at the **University of Wisconsin‑Madison**, specializing in **Industrial Organization**. My current interests explores how digital platforms and technological innovations reshape market structure and firm behavior.
+I'm a second year PhD student in Economics at the **University of Wisconsin‑Madison**, specializing in **Industrial Organization**. My current interests explores how digital platforms and technological innovations reshape market structure and firm behavior.
 
 You can download my CV [here](https://gslindenmeyer.github.io/files/CV.pdf).
 
