@@ -1,10 +1,8 @@
 ---
+layout: archive
 title: "Teaching"
 permalink: /teaching/
-layout: single
 author_profile: true
-sidebar:
-  nav: "Teaching"
 ---
 
 Welcome to my teaching page!  Here I'll post all materials—syllabi, slides, problem sets, discussion notes—for the courses I TA or teach.
