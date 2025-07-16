@@ -25,7 +25,7 @@ author:
   avatar           : "gui.jpg"
   name             : "Guilherme Lindenmeyer"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #
   location         : "Madison, WI"
   employer         : "UW-Madison"
   uri              : # URL
