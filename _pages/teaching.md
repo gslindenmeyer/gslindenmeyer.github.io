@@ -5,18 +5,20 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Welcome to my teaching page!  Here I'll post all materials—syllabi, slides, problem sets, discussion notes—for the courses I TA or teach.
+Welcome to my teaching page!  Here I'll post all materials  (syllabi, slides, problem sets, discussion notes) for the courses I teach.
 
-<!-- ## Econ 101: Principles of Microeconomics
+## Econ 101: Principles of Microeconomics
 
-**Instructor:** Prof. [Name]  
+**Instructor:** Lecturer Name  
 **Term:** Fall 2025  
 **Office Hours:** 
 
 ### Materials
 
 #### Syllabus  
-- [Download Syllabus (PDF)](/files/teaching/econ101/syllabus.pdf)
+<!-- - [Download Syllabus (PDF)](/files/teaching/econ101/syllabus.pdf) -->
+
+<!--
 
 #### Discussion Sections
 
@@ -40,8 +42,7 @@ Welcome to my teaching page!  Here I'll post all materials—syllabi, slides, pr
 <!-- #### Additional Resources
 
 - [Recommended Textbook](https://www.examplepublisher.com/econ101-textbook)  
-- [Office Hours Sign‑Up](https://calendly.com/your‑calendar) --> -->
- -->
----
+- [Office Hours Sign‑Up](https://calendly.com/your‑calendar) --> 
+
 
 *This page is under active development—check back for materials as the semester unfolds.*  

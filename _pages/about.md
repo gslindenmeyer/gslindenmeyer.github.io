@@ -8,7 +8,7 @@ redirect_from:
   - /about.html  
 ---
 
-I'm a second year PhD student in Economics at the **University of Wisconsin‑Madison**, specializing in **Industrial Organization**. My current interests explores how digital platforms and technological innovations reshape market structure and firm behavior.
+I'm a second year PhD student in Economics at the **University of Wisconsin‑Madison**, specializing in **Industrial Organization**. My current interests explores how digital platforms and technological innovations reshape market structure, consumer and firm behavior.
 
 You can download my CV [here](https://gslindenmeyer.github.io/files/CV.pdf).
 
@@ -23,6 +23,7 @@ You can download my CV [here](https://gslindenmeyer.github.io/files/CV.pdf).
 ---
 
 ### Experience  
+- Research Summer Internship, ** Harvard Business School** (Prof. Gaineddenova)
 - Research Assistant, **University of Wisconsin-Madison** (Prof. Karam Kang)  
 - Research Assistant, **University of Mannheim** (Prof. Lei Li)  
 - Summer Intern, **ZEW – Leibniz Centre for European Economic Research**  
@@ -40,7 +41,7 @@ My earlier research includes two publications during my undergraduate studies:
 
 My MSc thesis at the University of Mannheim:
 - [Spatial Competition and Hotel Pricing: Evidence from the
-9-Euro Ticket](https://gslindenmeyer.github.io/files/Master_Thesis.pdf), my master's thesis under the supervision of Prof. Nicolas Schutz
+9-Euro Ticket](https://gslindenmeyer.github.io/files/Master_Thesis.pdf), my master's thesis under the supervision of Prof. Schutz
 
 ---
 
