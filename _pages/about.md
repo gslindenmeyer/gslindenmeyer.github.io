@@ -23,7 +23,7 @@ You can download my CV [here](https://gslindenmeyer.github.io/files/CV.pdf).
 ---
 
 ### Experience  
-- Research Summer Internship, ** Harvard Business School** (Prof. Gaineddenova)
+- Research Summer Internship, **Harvard Business School** (Prof. Gaineddenova)
 - Research Assistant, **University of Wisconsin-Madison** (Prof. Karam Kang)  
 - Research Assistant, **University of Mannheim** (Prof. Lei Li)  
 - Summer Intern, **ZEW – Leibniz Centre for European Economic Research**  
