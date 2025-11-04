@@ -13,7 +13,7 @@ Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 **Term:** Fall 2025  
 **Office Hours:** Mon 11am-12pm, Wed 11am-12pm, 6439 Sewell Social Sciences
 
-#### Discussion Sections
+### Discussion Sections
 
 - **Module 1**  
   - [Review (PDF)](../files/teaching/reviews/Module%201%20Review.pdf)  
