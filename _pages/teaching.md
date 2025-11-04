@@ -5,7 +5,7 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Welcome to my teaching page!  Here I'll post all materials  (syllabi, slides, problem sets, discussion notes) for the courses I teach.
+Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 
 ## Econ 101: Principles of Microeconomics
 
