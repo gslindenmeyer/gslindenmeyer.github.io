@@ -9,40 +9,60 @@ Welcome to my teaching page!  Here I'll post all materials  (syllabi, slides, pr
 
 ## Econ 101: Principles of Microeconomics
 
-**Instructor:** Lecturer Name  
+**Professor:** Steve Trost  
 **Term:** Fall 2025  
-**Office Hours:** 
-
-### Materials
-
-#### Syllabus  
-<!-- - [Download Syllabus (PDF)](/files/teaching/econ101/syllabus.pdf) -->
-
-<!--
+**Office Hours:** Mon 11am-12pm, Wed 11am-12pm, 6439 Sewell Social Sciences
 
 #### Discussion Sections
 
-- **Discussion 1 – Principles of Economics**  
-  - [Discussion Notes (PDF)](/files/teaching/econ101/discussions/discussion01_notes.pdf)  
-  - [Problem Set (PDF)](/files/teaching/econ101/discussions/discussion01_ps.pdf)
+- **Module 1**  
+  - [Review (PDF)](../files/teaching/reviews/Module%201%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%201%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%201%20Worksheet%20Sol.pdf)
 
-- **Discussion 2 – Consumer Choice**  
-  - [Discussion Notes (PDF)](/files/teaching/econ101/discussions/discussion02_notes.pdf)  
-  - [Problem Set (PDF)](/files/teaching/econ101/discussions/discussion02_ps.pdf)
+- **Module 2**  
+  - [Review (PDF)](../files/teaching/reviews/Module%202%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%202%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%202%20Worksheet%20Sol.pdf)
 
-<!-- Duplicate the block above for each discussion section -->
+- **Module 3 & 4**  
+  - [Review (PDF)](../files/teaching/reviews/Module%203%20%26%204%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%203%20and%204%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%203%20and%204%20Worksheet%20Sol.pdf)
 
-<!-- #### Problem Sets & Solutions
+- **Module 5**  
+  - [Review (PDF)](../files/teaching/reviews/Module%205%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%205%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%205%20Worksheet%20Sol.pdf)
 
-- [Problem Set 1 (PDF)](/files/teaching/econ101/ps1.pdf)  
-- [Solution 1 (PDF)](/files/teaching/econ101/ps1_solutions.pdf)
+- **Module 6**  
+  - [Review (PDF)](../files/teaching/reviews/Module%206%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%206%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%206%20Worksheet%20Sol.pdf)
 
-<!-- Add as you create them -->
+- **Module 7**  
+  - [Review (PDF)](../files/teaching/reviews/Module%207%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%207%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%207%20Worksheet%20Sol.pdf)
+
+- **Module 8**  
+  - [Review (PDF)](../files/teaching/reviews/Module%208%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%208%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%208%20Worksheet%20Sol.pdf)
+
+- **Module 9**  
+  - [Review (PDF)](../files/teaching/reviews/Module%209%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%209%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%209%20Worksheet%20Sol.pdf)
+
+<!-- - **Module 10 & Exam Review**   -->
+
+
 
 <!-- #### Additional Resources
 
 - [Recommended Textbook](https://www.examplepublisher.com/econ101-textbook)  
 - [Office Hours Sign‑Up](https://calendly.com/your‑calendar) --> 
 
-
-*This page is under active development—check back for materials as the semester unfolds.*  
+<!-- 
+*This page is under active development—check back for materials as the semester unfolds.*   -->
