@@ -55,6 +55,11 @@ Welcome to my teaching page!  Here I'll post materials for the courses I teach.
   - [Worksheet (PDF)](../files/teaching/worksheets/Module%209%20Worksheet.pdf)  
   - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%209%20Worksheet%20Sol.pdf)
 
+- **Module 10 & Exam Review**  
+  - [Review (PDF)](../files/teaching/reviews/Module%2010%20Review.pdf)  
+  - [Worksheet (PDF)](../files/teaching/worksheets/Module%2010%20Worksheet.pdf)  
+  - [Worksheet Solution (PDF)](../files/teaching/worksheets_sol/Module%2010%20Worksheet%20Sol.pdf)
+
 <!-- - **Module 10 & Exam Review**   -->
 
 
