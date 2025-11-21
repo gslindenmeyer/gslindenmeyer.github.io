@@ -23,7 +23,8 @@ Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 - **Module 8** — [Review](../files/teaching/reviews/Module%208%20Review.pdf) | [Worksheet](../files/teaching/worksheets/Module%208%20Worksheet.pdf) | [Solution](../files/teaching/worksheets_sol/Module%208%20Worksheet%20Sol.pdf)
 - **Module 9** — [Review](../files/teaching/reviews/Module%209%20Review.pdf) | [Worksheet](../files/teaching/worksheets/Module%209%20Worksheet.pdf) | [Solution](../files/teaching/worksheets_sol/Module%209%20Worksheet%20Sol.pdf)
 - **Module 10 & Exam Review** — [Review](../files/teaching/reviews/Module%2010%20Review.pdf) | [Worksheet](../files/teaching/worksheets/Module%2010%20Worksheet.pdf) | [Solution](../files/teaching/worksheets_sol/Module%2010%20Worksheet%20Sol.pdf)
-- **Module 11 & Exam Review** — [Review](../files/teaching/reviews/Module%2011%20Review.pdf) | [Worksheet](../files/teaching/worksheets/Module%2011%20Worksheet.pdf) | [Solution](../files/teaching/worksheets_sol/Module%2011%20Worksheet%20Sol.pdf)
+- **Module 11** — [Review](../files/teaching/reviews/Module%2011%20Review.pdf) | [Worksheet](../files/teaching/worksheets/Module%2011%20Worksheet.pdf) | [Solution](../files/teaching/worksheets_sol/Module%2011%20Worksheet%20Sol.pdf)
+- **Module 12** — [Review](../files/teaching/reviews/Module%2012%20Review.pdf) | [Worksheet](../files/teaching/worksheets/Module%2012%20Worksheet.pdf) | [Solution](../files/teaching/worksheets_sol/Module%2012%20Worksheet%20Sol.pdf)
 
 
 
