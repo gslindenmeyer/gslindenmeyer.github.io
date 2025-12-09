@@ -25,6 +25,9 @@ Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 - **Module 10 & Exam Review** — [Review](../files/teaching/reviews/Module%2010%20Review.pdf) — [Worksheet](../files/teaching/worksheets/Module%2010%20Worksheet.pdf) — [Solution](../files/teaching/worksheets_sol/Module%2010%20Worksheet%20Sol.pdf)
 - **Module 11** — [Review](../files/teaching/reviews/Module%2011%20Review.pdf) — [Worksheet](../files/teaching/worksheets/Module%2011%20Worksheet.pdf) — [Solution](../files/teaching/worksheets_sol/Module%2011%20Worksheet%20Sol.pdf)
 - **Module 12** — [Review](../files/teaching/reviews/Module%2012%20Review.pdf) — [Worksheet](../files/teaching/worksheets/Module%2012%20Worksheet.pdf) — [Solution](../files/teaching/worksheets_sol/Module%2012%20Worksheet%20Sol.pdf)
+- **Module 13 & 14** — [Review](../files/teaching/reviews/Module%2013%20%26%2014%20Review.pdf) — [Worksheet](../files/teaching/worksheets/Module%2013%20and%2014%20Worksheet.pdf) — [Solution](../files/teaching/worksheets_sol/Module%2013%20and%2014%20Worksheet%20Sol.pdf)
+- **Final Exam Practice** — [Link](../files/teaching/worksheets/FinalExamPractice.pdf)
+
 
 
 
