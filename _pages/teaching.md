@@ -7,6 +7,15 @@ author_profile: true
 
 Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 
+## Econ 101: Principles of Microeconomics
+
+**Professor:** David Johnson  
+**Term:** Spring 2026  
+**Office Hours:** Wed 2:30-3:30 PM, Fri 12-1 PM, 6439 Sewell Social Sciences
+
+
+
+
 ## Econ 101: Principles of Microeconomics
 
 **Professor:** Steve Trost  
