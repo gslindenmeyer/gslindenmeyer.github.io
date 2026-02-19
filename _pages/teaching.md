@@ -5,7 +5,9 @@ permalink: /teaching/
 author_profile: true
 ---
 
-Welcome to my teaching page!  Here I'll post materials for the courses I teach.
+Welcome to my teaching page!  Here I'll post materials for the courses I teach. 
+
+
 
 ## Econ 101: Principles of Microeconomics
 
@@ -13,6 +15,23 @@ Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 **Term:** Spring 2026  
 **Office Hours:** Wed 2:30-3:30 PM, Fri 12-1 PM, 6439 Sewell Social Sciences
 
+**Exam Week Office Hours (Updated):**
+For the week of the exam only, office hours will be held **instead** on:
+
+* **Monday (02/23)** - 2:30-3:30 PM
+* **Tuesday (02/24)** - 11:00 AM-12:00 PM
+
+
+### Discussion Sections
+- **Week 1** —  [Class canceled](https://news.wisc.edu/weather-update-friday-classes-canceled/)
+- **Week 2** — [Review](../files/teaching/reviews_david/Week%202%20-%20Review.pdf) 
+- **Week 3** — [Review](../files/teaching/reviews_david/Week%203%20-%20Review.pdf)
+- **Week 4** — [Review](../files/teaching/reviews_david/Week%204%20-%20Review.pdf)
+
+*Disclaimer: The materials posted here are intended solely as review notes. They are not exhaustive and do not substitute for the assigned readings, lectures, or any official course materials.*
+
+
+---
 
 
 
@@ -38,6 +57,7 @@ Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 - **Final Exam Practice** — [Link](../files/teaching/worksheets/FinalExamPractice.pdf)
 
 
+*Disclaimer: The materials posted here are intended solely as review notes. They are not exhaustive and do not substitute for the assigned readings, lectures, or any official course materials.*
 
 
 
