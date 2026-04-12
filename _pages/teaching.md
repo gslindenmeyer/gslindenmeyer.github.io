@@ -15,11 +15,11 @@ Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 **Term:** Spring 2026  
 **Office Hours:** Wed 2:30-3:30 PM, Fri 12-1 PM, 6439 Sewell Social Sciences
 
-<!-- **Exam Week Office Hours (Updated):**
+**Exam Week Office Hours (Updated):**
 For the week of the exam only, office hours will be held **instead** on:
 
-* **Monday (02/23)** - 2:30-3:30 PM
-* **Tuesday (02/24)** - 11:00 AM-12:00 PM -->
+* **Monday (04/13)** - 2:30-3:30 PM
+* **Tuesday (04/14)** - 11:00 AM-12:00 PM
 
 
 ### Discussion Sections
@@ -30,6 +30,14 @@ For the week of the exam only, office hours will be held **instead** on:
 - **Week 5** — [Review](../files/teaching/reviews_david/Week%205%20-%20Review.pdf)
 - **Week 6** — No Discussion (Exam Week)
 - **Week 7** — [Review](../files/teaching/reviews_david/Week%207%20-%20Review.pdf)
+- **Week 8** — [Review](../files/teaching/reviews_david/Week%208%20-%20Review.pdf)
+- **Week 9** — [Review](../files/teaching/reviews_david/Week%209%20-%20Review.pdf)
+- **Week 10** — [Review](../files/teaching/reviews_david/Week%2010%20-%20Review.pdf)
+- **Week 11** — No Discussion (Spring Break)
+- **Week 12** — [Review](../files/teaching/reviews_david/Week%2011%20-%20Review.pdf)
+- **Week 13** — No Discussion (Exam Week)
+- **Week 14** — April, 24th 
+- **Week 15** — May, 1st (last discussion)
 
 *Disclaimer: The materials posted here are intended solely as review notes. They are not exhaustive and do not substitute for the assigned readings, lectures, or any official course materials.*
 
