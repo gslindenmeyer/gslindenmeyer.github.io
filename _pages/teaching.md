@@ -18,8 +18,8 @@ Welcome to my teaching page!  Here I'll post materials for the courses I teach.
 **Exam Week Office Hours (Updated):**
 For the week of the exam only, office hours will be held **instead** on:
 
-* **Monday (04/13)** - 2:30-3:30 PM
-* **Tuesday (04/14)** - 11:00 AM-12:00 PM
+* **Monday (05/04)** - 2:30-3:30 PM
+* **Tuesday (05/05)** - 11:00 AM-12:00 PM
 
 
 ### Discussion Sections
