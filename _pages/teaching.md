@@ -36,8 +36,8 @@ For the week of the exam only, office hours will be held **instead** on:
 - **Week 11** — No Discussion (Spring Break)
 - **Week 12** — [Review](../files/teaching/reviews_david/Week%2011%20-%20Review.pdf)
 - **Week 13** — No Discussion (Exam Week)
-- **Week 14** — April, 24th 
-- **Week 15** — May, 1st (last discussion)
+- **Week 14** — [Review](../files/teaching/reviews_david/Week%2012%20-%20Review.pdf) 
+- **Week 15** — [Review](../files/teaching/reviews_david/Week%2013%20-%20Review.pdf)
 
 *Disclaimer: The materials posted here are intended solely as review notes. They are not exhaustive and do not substitute for the assigned readings, lectures, or any official course materials.*
 
