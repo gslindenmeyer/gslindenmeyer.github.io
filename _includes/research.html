@@ -1,0 +1,29 @@
+{%- comment -%}
+  Renders the paper list from _data/research.yml. Used on the home page and on /research/.
+{%- endcomment -%}
+{%- for group in site.data.research -%}
+<div class="group">
+  <h3>{{ group.group }}</h3>
+  {%- for paper in group.papers %}
+  <div class="entry">
+    <p class="t">{{ paper.title }}</p>
+    {%- if paper.meta %}
+    <p class="m">{{ paper.meta | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+    {%- endif -%}
+    {%- if paper.links or paper.abstract %}
+    <div class="links">
+      {%- for link in paper.links %}
+      <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+      {%- endfor -%}
+      {%- if paper.abstract %}
+      <details>
+        <summary>Abstract</summary>
+        <p class="abs">{{ paper.abstract | strip }}</p>
+      </details>
+      {%- endif %}
+    </div>
+    {%- endif %}
+  </div>
+  {%- endfor %}
+</div>
+{%- endfor -%}

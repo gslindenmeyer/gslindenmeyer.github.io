@@ -1,0 +1,182 @@
+/* gslindenmeyer.github.io: one column, Instrument Sans, navy links, subtle motion. */
+
+:root {
+  --bg: #ffffff;
+  --fg: #1f2023;
+  --muted: #63666d;
+  --soft: #f4f4f6;
+  --accent: #234b86;
+  --font: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --measure: 800px;
+  --gutter: 28px;
+  --rise: 6px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #151618;
+    --fg: #eaebee;
+    --muted: #a2a5ac;
+    --soft: #1e2023;
+    --accent: #9dbcec;
+    color-scheme: dark;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font);
+  font-size: 17px;
+  line-height: 1.65;
+}
+img { max-width: 100%; height: auto; }
+p { margin: 0; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+a, summary {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
+  transition: text-decoration-color .2s;
+}
+a:hover, summary:hover { text-decoration-color: var(--accent); }
+
+/* ---------- header ---------- */
+.bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.nav {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 16px var(--gutter);
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-size: 15px;
+}
+.nav .who { font-weight: 600; color: var(--fg); text-decoration: none; }
+.home .nav .who { visibility: hidden; }
+.menu { display: flex; gap: 22px; flex-wrap: wrap; }
+.menu a { position: relative; color: var(--muted); text-decoration: none; }
+.menu a::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -4px;
+  height: 1.5px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .3s ease;
+}
+.menu a:hover { color: var(--fg); }
+.menu a:hover::after, .menu a[aria-current]::after { transform: scaleX(1); }
+.menu a[aria-current] { color: var(--fg); }
+
+/* ---------- layout ---------- */
+.main {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 20px var(--gutter) 72px;
+  display: grid;
+  gap: 56px;
+}
+.foot {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 0 var(--gutter) 40px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* ---------- home ---------- */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 150px;
+  gap: 36px;
+  align-items: start;
+}
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  line-height: 1.12;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin: 0 0 16px;
+  text-wrap: balance;
+}
+.bio { max-width: 56ch; margin-bottom: 16px; }
+.bio p + p { margin-top: 12px; }
+.contact { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 15.5px; color: var(--muted); }
+.photo { display: block; width: 150px; border-radius: 3px; }
+
+/* ---------- sections and papers ---------- */
+.sec { display: grid; gap: 22px; }
+.sec > h2 { font-size: 1.15rem; font-weight: 600; margin: 0; }
+.group { display: grid; gap: 16px; }
+.group + .group { margin-top: 22px; }
+.group > h3 { font-size: 14px; font-weight: 500; color: var(--muted); margin: 0; }
+.entry { display: grid; gap: 2px; }
+.entry .t { font-weight: 600; line-height: 1.4; text-wrap: pretty; transition: color .25s; }
+.entry:hover .t { color: var(--accent); }
+.entry .m { color: var(--muted); font-size: 15.5px; }
+.links { display: flex; gap: 6px 18px; flex-wrap: wrap; font-size: 15px; margin-top: 3px; }
+details > summary { cursor: pointer; display: inline; list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+.abs {
+  font-size: 15.5px;
+  margin-top: 8px;
+  padding: 12px 14px;
+  background: var(--soft);
+  border-radius: 4px;
+  color: var(--fg);
+}
+details[open] .abs { animation: open .2s ease; }
+
+/* ---------- inner pages ---------- */
+.page { display: grid; gap: 18px; }
+.page > h1 { font-size: 2rem; line-height: 1.15; font-weight: 600; letter-spacing: -0.01em; margin: 0; }
+.lede { color: var(--muted); max-width: 60ch; }
+.page h2 { font-size: 1.15rem; font-weight: 600; margin: 30px 0 0; line-height: 1.4; }
+.page h2 + p { color: var(--muted); font-size: 15.5px; margin-top: -12px; }
+.page ul { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 4px; }
+.page li strong { font-weight: 600; }
+.page .group:first-of-type { margin-top: 10px; }
+.note { color: var(--muted); font-size: 15px; font-style: italic; }
+
+/* ---------- motion (subtle); content is visible without it ---------- */
+@keyframes rise { from { opacity: 0; transform: translateY(var(--rise)); } to { opacity: 1; transform: none; } }
+@keyframes drop { from { opacity: 0; transform: translateY(-100%); } to { opacity: 1; transform: none; } }
+@keyframes open { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
+.bar { animation: drop .6s ease both; }
+.hero h1 { animation: rise .7s .10s var(--ease) both; }
+.bio { animation: rise .7s .22s var(--ease) both; }
+.contact { animation: rise .7s .34s var(--ease) both; }
+.hero .photo { animation: rise .8s .28s var(--ease) both; }
+.main > :not(.hero):first-child, .hero + .sec, .page { animation: rise .7s .40s var(--ease) both; }
+.page { animation-delay: .1s; }
+.entry, .group > h3 { transition: opacity .6s ease, transform .6s var(--ease); }
+.reveal { opacity: 0; transform: translateY(var(--rise)); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .reveal { opacity: 1; transform: none; }
+}
+
+/* ---------- phones ---------- */
+@media (max-width: 620px) {
+  :root { --gutter: 18px; }
+  .main { gap: 44px; }
+  .hero { grid-template-columns: 1fr; gap: 24px; }
+  .hero .photo { width: 104px; order: -1; }
+}

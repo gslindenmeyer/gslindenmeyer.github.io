@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="hero">
+  <div>
+    <h1>{{ site.author.name }}</h1>
+    <div class="bio">{{ content }}</div>
+    <p class="contact">
+      <span>{{ site.author.email }}</span>
+      {%- for link in site.links -%}
+      <a href="{{ link.url | relative_url }}">{{ link.label }}</a>
+      {%- endfor -%}
+    </p>
+  </div>
+  <img class="photo" src="{{ '/images/gui.jpg' | relative_url }}" alt="{{ site.author.name }}" width="150" height="150">
+</div>
+
+<section class="sec">
+  <h2>Research</h2>
+  {% include research.html %}
+</section>
+
+<section class="sec">
+  <h2>Teaching</h2>
+  <div class="entry">
+    <p>Econ 101, Principles of Microeconomics, UW&ndash;Madison</p>
+    <p class="links">
+      <a href="{{ '/teaching/#spring-2026' | relative_url }}">Spring 2026 section reviews</a>
+      <a href="{{ '/teaching/#fall-2025' | relative_url }}">Fall 2025 worksheets and solutions</a>
+    </p>
+  </div>
+</section>

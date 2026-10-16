@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/images/favicon-32x32.png' | relative_url }}" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#151618" media="(prefers-color-scheme: dark)">
+</head>
+<body{% if page.url == "/" %} class="home"{% endif %}>
+  <header class="bar">
+    <nav class="nav" aria-label="Main">
+      <a class="who" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
+      <span class="menu">
+        {%- for item in site.nav -%}
+        <a href="{{ item.url | relative_url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        {%- endfor -%}
+      </span>
+    </nav>
+  </header>
+
+  <main class="main">
+    {{ content }}
+  </main>
+
+  <footer class="foot">
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.author.name }} &middot; Updated {{ site.time | date: "%B %Y" }}</p>
+  </footer>
+
+  <script src="{{ '/assets/js/site.js' | relative_url }}" defer></script>
+</body>
+</html>
