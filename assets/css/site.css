@@ -7,7 +7,7 @@
   --soft: #f4f4f6;
   --accent: #234b86;
   --font: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --measure: 800px;
+  --measure: 1000px;
   --gutter: 28px;
   --rise: 6px;
   --ease: cubic-bezier(.2, .7, .2, 1);
@@ -100,25 +100,28 @@ a:hover, summary:hover { text-decoration-color: var(--accent); }
   color: var(--muted);
 }
 
-/* ---------- home ---------- */
-.hero {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 150px;
-  gap: 36px;
-  align-items: start;
-}
-.hero h1 {
+/* ---------- home: name on top, photo + links on the left, everything else on the right ---------- */
+.home .main { gap: 28px; }
+.name {
   font-size: clamp(2rem, 4vw, 2.5rem);
   line-height: 1.12;
   font-weight: 600;
   letter-spacing: -0.015em;
-  margin: 0 0 16px;
+  margin: 0;
   text-wrap: balance;
 }
-.bio { max-width: 56ch; margin-bottom: 16px; }
+.split {
+  display: grid;
+  grid-template-columns: 260px minmax(0, 1fr);
+  gap: 56px;
+  align-items: start;
+}
+.side { position: sticky; top: 84px; display: grid; gap: 22px; }
+.photo { display: block; width: 260px; border-radius: 3px; }
+.contact { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; font-size: 15.5px; color: var(--muted); }
+.body { display: grid; gap: 56px; min-width: 0; }
+.bio { max-width: 62ch; }
 .bio p + p { margin-top: 12px; }
-.contact { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 15.5px; color: var(--muted); }
-.photo { display: block; width: 150px; border-radius: 3px; }
 
 /* ---------- sections and papers ---------- */
 .sec { display: grid; gap: 22px; }
@@ -144,7 +147,7 @@ details > summary::-webkit-details-marker { display: none; }
 details[open] .abs { animation: open .2s ease; }
 
 /* ---------- inner pages ---------- */
-.page { display: grid; gap: 18px; }
+.page { display: grid; gap: 18px; max-width: 760px; }
 .page > h1 { font-size: 2rem; line-height: 1.15; font-weight: 600; letter-spacing: -0.01em; margin: 0; }
 .lede { color: var(--muted); max-width: 60ch; }
 .page h2 { font-size: 1.15rem; font-weight: 600; margin: 30px 0 0; line-height: 1.4; }
@@ -159,12 +162,12 @@ details[open] .abs { animation: open .2s ease; }
 @keyframes drop { from { opacity: 0; transform: translateY(-100%); } to { opacity: 1; transform: none; } }
 @keyframes open { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: none; } }
 .bar { animation: drop .6s ease both; }
-.hero h1 { animation: rise .7s .10s var(--ease) both; }
-.bio { animation: rise .7s .22s var(--ease) both; }
+.name { animation: rise .7s .10s var(--ease) both; }
+.side .photo { animation: rise .8s .20s var(--ease) both; }
 .contact { animation: rise .7s .34s var(--ease) both; }
-.hero .photo { animation: rise .8s .28s var(--ease) both; }
-.main > :not(.hero):first-child, .hero + .sec, .page { animation: rise .7s .40s var(--ease) both; }
-.page { animation-delay: .1s; }
+.bio { animation: rise .7s .26s var(--ease) both; }
+.body > .sec:first-of-type { animation: rise .7s .40s var(--ease) both; }
+.page { animation: rise .7s .10s var(--ease) both; }
 .entry, .group > h3 { transition: opacity .6s ease, transform .6s var(--ease); }
 .reveal { opacity: 0; transform: translateY(var(--rise)); }
 
@@ -177,6 +180,9 @@ details[open] .abs { animation: open .2s ease; }
 @media (max-width: 620px) {
   :root { --gutter: 18px; }
   .main { gap: 44px; }
-  .hero { grid-template-columns: 1fr; gap: 24px; }
-  .hero .photo { width: 104px; order: -1; }
+  .split { grid-template-columns: 1fr; gap: 28px; }
+  .side { position: static; grid-template-columns: 140px minmax(0, 1fr); align-items: end; gap: 18px; }
+  .photo { width: 140px; }
+  .contact { font-size: 15px; }
+  .body { gap: 44px; }
 }
