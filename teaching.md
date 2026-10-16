@@ -7,6 +7,7 @@ lede: Materials from my Econ 101 discussion sections at UW–Madison.
 ## Econ 101: Principles of Microeconomics, Spring 2026 {#spring-2026}
 
 Professor David Johnson
+{: .meta}
 
 - **Week 1:** [Class canceled](https://news.wisc.edu/weather-update-friday-classes-canceled/)
 - **Week 2:** [Review](/files/teaching/reviews_david/Week%202%20-%20Review.pdf)
@@ -27,6 +28,7 @@ Professor David Johnson
 ## Econ 101: Principles of Microeconomics, Fall 2025 {#fall-2025}
 
 Professor Steve Trost
+{: .meta}
 
 - **Module 1:** [Review](/files/teaching/reviews/Module%201%20Review.pdf) · [Worksheet](/files/teaching/worksheets/Module%201%20Worksheet.pdf) · [Solution](/files/teaching/worksheets_sol/Module%201%20Worksheet%20Sol.pdf)
 - **Module 2:** [Review](/files/teaching/reviews/Module%202%20Review.pdf) · [Worksheet](/files/teaching/worksheets/Module%202%20Worksheet.pdf) · [Solution](/files/teaching/worksheets_sol/Module%202%20Worksheet%20Sol.pdf)
@@ -44,7 +46,7 @@ Professor Steve Trost
 
 ## Earlier
 
-Grader for economics courses at UW–Madison (2024–25), and teaching assistant in Political Economy at the Federal University of Rio Grande do Sul (2018).
+Grader at UW–Madison for Econ 695, Topics in Economic Data Analysis (Spring 2025), and Econ 111, Principles of Economics—Accelerated Treatment (Fall 2024). Teaching assistant in Political Economy at the Federal University of Rio Grande do Sul (2018).
 
 The materials on this page are review notes. They are not exhaustive and don't replace the assigned readings, lectures, or official course materials.
 {: .note}
