@@ -1,26 +1,26 @@
 /* gslindenmeyer.github.io: one column, Instrument Sans, navy links, subtle motion. */
 
+/* Light: warm paper. Dark (the default, set on <html>): near-black. */
 :root {
-  --bg: #ffffff;
-  --fg: #1f2023;
-  --muted: #63666d;
-  --soft: #f4f4f6;
+  --bg: #faf7f2;
+  --fg: #2d2d2d;
+  --muted: #5f5a54;
+  --soft: #f0ebe3;
   --accent: #234b86;
+  color-scheme: light;
   --font: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   --measure: 1000px;
   --gutter: 28px;
   --rise: 6px;
   --ease: cubic-bezier(.2, .7, .2, 1);
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #151618;
-    --fg: #eaebee;
-    --muted: #a2a5ac;
-    --soft: #1e2023;
-    --accent: #9dbcec;
-    color-scheme: dark;
-  }
+:root[data-theme="dark"] {
+  --bg: #151618;
+  --fg: #eaebee;
+  --muted: #a2a5ac;
+  --soft: #1e2023;
+  --accent: #9dbcec;
+  color-scheme: dark;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -83,6 +83,28 @@ a:hover, summary:hover { text-decoration-color: var(--accent); }
 .menu a:hover { color: var(--fg); }
 .menu a:hover::after, .menu a[aria-current]::after { transform: scaleX(1); }
 .menu a[aria-current] { color: var(--fg); }
+.menu { align-items: center; }
+
+/* theme toggle: shows the sun in dark mode, the moon in light mode */
+.theme-toggle {
+  display: inline-grid;
+  place-items: center;
+  width: 32px; height: 32px;
+  margin: -6px -6px -6px 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  transition: color .2s, background-color .2s, transform .4s var(--ease);
+}
+.theme-toggle:hover { color: var(--fg); background: var(--soft); }
+.theme-toggle:active { transform: rotate(20deg); }
+.theme-toggle .icon-moon { display: none; }
+:root:not([data-theme="dark"]) .theme-toggle .icon-sun { display: none; }
+:root:not([data-theme="dark"]) .theme-toggle .icon-moon { display: block; }
+body { transition: background-color .3s ease, color .3s ease; }
 
 /* ---------- layout ---------- */
 .main {
