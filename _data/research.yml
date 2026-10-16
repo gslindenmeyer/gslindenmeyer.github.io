@@ -8,7 +8,7 @@
 - group: Publications
   papers:
     - title: "Boosting and Predictability of Macroeconomic Variables: Evidence from Brazil"
-      meta: "with Hudson Torrent. *Computational Economics*, 2023."
+      meta: "with Hudson Torrent. *Computational Economics* 64(1), 377–409, 2024."
       links:
         - label: Paper (open access)
           url: https://link.springer.com/article/10.1007/s10614-023-10421-3
@@ -22,7 +22,7 @@
         two-stage boosting methodology. Robustness checks further validate these findings.
 
     - title: "Using Boosting for Forecasting Electric Energy Consumption During a Recession: A Case Study for the Brazilian State Rio Grande do Sul"
-      meta: "with Pedro Skorin and Hudson Torrent. *Letters in Spatial and Resource Sciences* 14, 2021."
+      meta: "with Pedro Skorin and Hudson Torrent. *Letters in Spatial and Resource Sciences* 14(2), 111–128, 2021."
       links:
         - label: Paper
           url: https://link.springer.com/article/10.1007/s12076-021-00268-3
